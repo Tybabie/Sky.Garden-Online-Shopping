@@ -1,0 +1,29 @@
+body{
+    font-family: 'Slabo 27px', serif;
+}
+.height{
+    min-height: 100vh;
+}
+.text-underline{
+    width: 150px;
+    height: 5px;
+    margin: 0 auto;
+}
+.height-80{
+    height: 100vh;
+}
+.about-picture{
+    background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.726)), url('../images/Annotation\ 2020-04-30\ 150248.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#filler, #progress{
+    background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.726)), 
+    url(https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}

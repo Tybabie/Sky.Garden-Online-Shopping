@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Online Shopping - Instant Delivery - Sky.Garden</title>
+    <link rel="icon" href="../resources/images/download (1).jfif">
+    <link rel="stylesheet" href="../resources/css/bootstrap.css">
+    <link rel="stylesheet" href="../resources/css/style.css">
+    <link rel="stylesheet" href="../resources/css/fontawesome/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="py-2">
+        <div class="container-fluid">
+            <div class=" d-flex justify-content-between">
+                <div class="d-flex">
+                    <a href="../index.html" class="bg-info text-white p-2  rounded"><i class="fa fa-caret-left mr-2"></i>Back</a>
+                    <a href="../index.html" class="font-italic d-inline ml-2 text-dark"> <h3> <b>skygarden</b> </h3></a>
+                </div>
+               
+                   <p class="text-right"> <i class="fa fa-lock mr-2 mt-2"></i> <i class="d-none d-sm-inline">Secure Checkout</i> </p>
+                
+                </div>
+        </div>
+    </section>
+
+
+<section style="background-color: rgb(209, 210, 212);">
+
+    <div class=" d-flex justify-content-around">
+<div class="d-flex justify-content-between" style="width: 27%; background-color: rgb(35, 31, 32); height: 48px; margin-right: auto;">
+    <p class="text-white " style=" background-color: rgb(35, 31, 32);" id="address"> Address  </p>
+
+    <img src="../resources/images/img2.jpg" alt="" style="height: 3em;  ">
+</div>
+        
+<p class="text-muted  mt-2 mr-auto" >Delivery</p>
+ <img src="../resources/images/img.jpg" alt="" style="height: 3em; margin-right: auto;">
+ <p class="text-muted mt-2 mr-auto">Payment</p>
+ <img src="../resources/images/img.jpg" alt="" style="height: 3em;">
+ <p class="text-muted mt-2 mx-auto">Complete</p>
+
+    </div>
+</section>
+
+
+
+<section id="payment-section" class="my-5">
+    <div class="container">
+       <div class="row">
+            <div class="col-lg-6 my-3">
+                <h5 class="text-capitalize"><b>personal information</b></h5>
+                
+                
+                <form onsubmit="return formValidation()">
+                    
+                    <div class="form-group mt-3">
+                        <input type="email" id="email" placeholder="Email Address *" onfocusout="validateEmail()"><br>
+                        <span  id="email_message"></span>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="text" id="name" placeholder="Full Name *" onfocusout="validateEmail()"><br>
+                        <span  id="email_message"></span>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="tel" id="phone" placeholder="Phone Number *" onfocusout="validatePhone()"><br>
+                        <span  id="phone_message"></span>
+                    </div>
+                
+                </form>
+            </div>
+            <div class="col-lg-6 mt-3">
+                <h5 class="text-capitalize"><b>delivery address</b></h5>
+                
+                
+                <form onsubmit="return formValidation()">
+                    
+                    <div class="form-group mt-3">
+                        <input type="text" id="email" placeholder="Delivery Address *" onfocusout="validateEmail()"><br>
+                        <span  id="email_message"></span>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="text" id="name" placeholder="Country/City *" onfocusout="validateEmail()"><br>
+                        <span  id="email_message"></span>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="text" id="phone" placeholder="Region *" onfocusout="validatePhone()"><br>
+                        <span  id="phone_message"></span>
+                    </div>
+                    <div class="form-group mt-3">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Specifications to help the delivery rider find you faster"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-6 mx-auto">
+                <a href="" class="btn btn-block btn-secondary text-uppercase mt-5"> <p style="font-size: 25px;">proceed</p> </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <script src="../resources/js/jquery.min.js"></script>
+    <script src="../resources/js/popper.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+    <script src="../resources/js/login.js"></script>
+</body>
+</html>
