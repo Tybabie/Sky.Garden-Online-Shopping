@@ -103,11 +103,11 @@ button{
 }
 #login{
     height: 100vh;
-    padding-top: 20vh;
+    padding-top: 30vh;
 }
 #log-in{
     height: 100vh;
-    padding-top: 20vh;
+    padding-top: 30vh;
     display: none;
 }
 #login input, .btn{
@@ -118,7 +118,7 @@ button{
 }
 #log-in{
     height: 150vh;
-    padding-top: 20vh;
+    padding-top: 30vh;
 }
 #log-in input, .btn, #payment-section input, #payment-section textarea{
     width: 100%;
@@ -130,8 +130,9 @@ button{
     color: crimson;
 }
 #cart{
-    height: 100vh;
+    height: 120vh;
     padding-top: 30vh;
+    
 }
 a{
     text-decoration: none !important;
@@ -175,6 +176,9 @@ a{
     #stories h1, #home-essentials h1{
             font-size: 30px;
         }
+    #stories h1{
+            font-size: 25px;
+        }
     #carousel{
         display: none;
     }
@@ -186,6 +190,12 @@ a{
        background-size: cover;
         height: 60vh;
         display: block !important;
+    }
+    .skygarden-app h1{
+        font-size: 45px;
+    }
+    .skygarden-app img{
+        width: 35% !important;
     }
 }
 
