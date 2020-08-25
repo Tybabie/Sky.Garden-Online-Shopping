@@ -139,6 +139,7 @@ a{
 }
 #dropdown-menu{
     position: fixed !important;
+    top: -35px !important;
     
 }
 #address{
